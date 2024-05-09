@@ -18,7 +18,7 @@ function App() {
               date={expense.date}
               title={expense.title}
               price={expense.price}
-              city={expense.city}
+              location={expense.city}
             ></ExpenseItem>
           )
         })
