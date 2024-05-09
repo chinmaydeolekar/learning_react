@@ -14,6 +14,7 @@ function App() {
         expenses.map((expense, index) => {
           return (
             <ExpenseItem
+              key={expense.id}
               date={expense.date}
               title={expense.title}
               price={expense.price}
