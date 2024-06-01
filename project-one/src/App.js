@@ -2,10 +2,10 @@ import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   const expenses = [
-    { id: 1, date: new Date(2023, 7, 15), title: 'Insurance', price: '50', city: 'Bangalore' },
-    { id: 2, date : new Date(2023, 8, 16), title: 'Book', price: '20', city: 'Delhi' },
-    { id: 3, date: new Date(2023, 9, 17), title: 'Pen', price: '10', city: 'Hyderabad' },
-    { id: 4, date: new Date(2023, 10, 18), title: 'Laptop', price: '200', city: 'Mumbai' }
+    { id: 1, date: new Date(2023, 7, 15), title: 'Insurance', price: '100', city: 'Bangalore' },
+    { id: 2, date : new Date(2023, 7, 25), title: 'Book', price: '10', city: 'Delhi' },
+    { id: 3, date: new Date(2023, 7, 11), title: 'Pen', price: '1', city: 'Hyderabad' },
+    { id: 4, date: new Date(2023, 7, 14), title: 'Laptop', price: '200', city: 'Mumbai' }
   ]
   return (
     <div>
