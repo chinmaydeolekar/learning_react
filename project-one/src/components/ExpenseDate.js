@@ -1,6 +1,6 @@
 import "./ExpenseDate.css";
 
-const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 function ExpenseDate(props) {
   const month = months[props.calenderDate.getMonth()];
