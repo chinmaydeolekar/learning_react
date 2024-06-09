@@ -1,5 +1,5 @@
-import ExpenseItem from "./components/ExpenseItem";
-import Expense from "./components/Expenses"
+// import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses"
 
 function App() {
   const expenses = [
@@ -23,7 +23,7 @@ function App() {
         //     ></ExpenseItem>
         //   )
         // })
-        <Expense expenses = {expenses}></Expense>
+        <Expenses expenses = {expenses} />
       }
     </div>
   );
