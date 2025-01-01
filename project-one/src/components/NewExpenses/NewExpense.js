@@ -5,7 +5,7 @@ import "./NewExpense.css";
 const NewExpense = (props) => {
     const saveExpenseDataHandler = (expenseData) => {
         console.log(expenseData, "heyyy");
-        props.onUpdateExpenses(expenseData);
+        props.onAddExpense(expenseData);
     }
     return (
         <div className="new-expense">
