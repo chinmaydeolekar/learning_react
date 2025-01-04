@@ -59,7 +59,7 @@ const ExpenseForm = (props) => {
     event.preventDefault();
     const infoToUpdate = {
       title: enteredTitle,
-      amount: enteredAmount,
+      price: enteredAmount,
       date: new Date(enteredDate)
     }
     console.log(infoToUpdate)
@@ -77,7 +77,7 @@ const ExpenseForm = (props) => {
           <input type="text" value={enteredTitle} id="title" onChange={titleChangeHandler} />
         </div>
         <div className="new-expense__control">
-          <label htmlFor="amount">Amount</label>
+          <label htmlFor="price">Price</label>
           <input type="number" value={enteredAmount} id="amount" onChange={amountChangeHandler} />
         </div>
         <div className="new-expense__control">
