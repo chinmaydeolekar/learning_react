@@ -16,8 +16,6 @@ const App = () => {
     setExpenses((prevExpenses) => {
       let length = prevExpenses.length+1;
       expense.id = length++;
-      console.log(prevExpenses, "prevExpenses");
-      console.log(expense);
       return [...prevExpenses, expense]
     })
   };

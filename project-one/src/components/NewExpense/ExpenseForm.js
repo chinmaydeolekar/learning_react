@@ -61,10 +61,9 @@ const ExpenseForm = (props) => {
     event.preventDefault();
     const infoToUpdate = {
       title: enteredTitle,
-      price: enteredAmount,
+      price: +enteredAmount,
       date: new Date(enteredDate)
     }
-    console.log(infoToUpdate)
     props.onSaveExpenseData(infoToUpdate);
     setEnteredTitle("");
     setEnteredAmount("");
